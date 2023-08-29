@@ -35,11 +35,8 @@ function addItem(e){
   e.preventDefault();
   var newItem = document.getElementById('item').value; // Get input value
   let newDes = document.getElementById('description').value;//GET INPUT VALUE OF DESCRIPTION BOX
-  console.log(newDes);
   let text1 = document.createTextNode(newItem);
-  console.log(text1);
   let text2 = document.createTextNode(newDes);
-  console.log(text2);
 
   var li = document.createElement('li');// Create new li element
   li.className = 'list-group-item';// Add class
